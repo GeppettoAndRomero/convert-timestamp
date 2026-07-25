@@ -1,0 +1,36 @@
+{
+  "name": "Convert Timestamp \u2014 runlocally",
+  "short_name": "Convert Timestamp",
+  "description": "Convert Unix timestamps to dates and back, with local time and UTC side by side. Nothing is uploaded. Works offline.",
+  "start_url": "/convert-timestamp/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/convert-timestamp/",
+  "icons": [
+    {
+      "src": "/convert-timestamp/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/convert-timestamp/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
